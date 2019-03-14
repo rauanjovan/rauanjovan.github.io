@@ -1,0 +1,56 @@
+body{
+	background: url('home 2.jpg') center /*no-repeat fixed*/;
+	background-size: 100%;
+	background-position: center;
+
+	font-family: Arial;
+	text-align: center;
+
+}
+header{
+	height: 100vh;	
+	background-size: cover;
+	background-position: center;
+}
+
+ul li{
+	list-style-type: none;
+	
+}
+
+ul li :hover{
+	background-color: blue;
+}
+
+
+
+
+.dropdown-menu:hover{
+	background-color: green;
+	}
+ 
+
+#dropdown2{
+	background-color: black;
+	text-align: center;
+}
+
+#dropdown2 a:hover{
+	background-color: green;
+}
+
+ul li:hover #dropdown2{
+	display: block;
+}
+
+ul li:hover #dropdown{
+	display: block;
+}
+
+#dropdown a:hover{
+	background-color: blue;
+}
+
+ul li a:hover{
+	background-color: black;
+}

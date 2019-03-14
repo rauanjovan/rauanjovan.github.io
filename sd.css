@@ -1,0 +1,11 @@
+body{
+	background: url('bckpendidikan3.jpg') no-repeat /*no-repeat fixed*/;
+	background-size: cover;
+	font-family: Arial;
+	text-align: center;
+}ul li{
+	list-style-type: none;background-color: green;
+	height: 39px;
+	margin-right: 2px;
+
+}

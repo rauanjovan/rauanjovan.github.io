@@ -1,0 +1,66 @@
+body{
+	background: url('rajo.gif') center /*no-repeat fixed*/;
+	background-size: 100%;
+	background-position: center;
+
+	font-family: Arial;
+	text-align: center;
+
+}
+header{
+	height: 100vh;	
+	background-size: cover;
+	background-position: center;
+}
+
+ul li{
+	margin: 0px;
+	padding: 0px;
+	width: 200px;
+	height: 41px;
+	list-style: none;
+	background-color: blue;
+	opacity: .8;
+	line-height: 25px;
+	text-align: center;
+	font-size: 20px;
+	margin-right: 3px;
+	list-style-image: left;
+}
+
+ul li a:hover{
+	background-color: black;
+}
+
+
+
+
+.dropdown-menu:hover{
+	background-color: green;
+	}
+ 
+
+#dropdown2{
+	background-color: black;
+	text-align: center;
+}
+
+#dropdown2 a:hover{
+	background-color: green;
+}
+
+ul li:hover #dropdown2{
+	display: block;
+}
+
+ul li:hover #dropdown{
+	display: block;
+}
+
+#dropdown a:hover{
+	background-color: blue;
+}
+
+ul li a:hover{
+	background-color: black;
+}

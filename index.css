@@ -1,0 +1,34 @@
+body{
+	background: url('medis.gif') no-repeat /*no-repeat fixed*/;
+	background-size: cover;
+	font-family: Arial;
+	text-align: center;
+}
+#header{
+	background: url('petir.gif');
+}#footer{
+	height: 250px;
+	position: bottom;
+}
+
+
+ul li{
+	background-color: blue;
+	height: 50vh;
+	margin: 0px;
+	padding: 0px;
+	width: 200px;
+	height: 41px;
+	list-style: none;
+	line-height: 25px;
+	text-align: center;
+	font-size: 20px;
+	margin-right: 3px;
+}
+ul li :hover{
+	background-color: black;
+}
+.dropdown-menu:hover{
+	background-color: yellow;
+	}
+ 

@@ -1,0 +1,8 @@
+body{
+	background: url('bckpendidikan.jpg') no-repeat /*no-repeat fixed*/;
+	background-size: cover;
+	font-family: Arial;
+	text-align: center;
+}ul li{
+	list-style-type: none;
+}

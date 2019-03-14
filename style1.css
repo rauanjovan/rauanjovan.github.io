@@ -1,0 +1,93 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #fafafa;
+	font-size: 14px;
+	font-family: Verdana, sans;
+}
+
+#container{
+	margin: 0 auto;
+	width: 960px;
+}
+
+#header{
+	background-color: #abcdef;
+	margin: 0;
+	padding: 10px;
+}
+
+#header img{
+	float: left;
+	width: 100px;
+	height: auto;
+
+}
+
+#header h1{
+	color: blue;
+}
+
+#header p{
+	font-style: italic;
+}
+
+#body{
+	clear: both;
+	display: flex;
+}
+
+#body #sidebar{
+	float: left;
+	width: 30%;
+	background-color: #fafaaa;
+}
+
+#body #sidebar ul{
+	list-style-type: none;
+	font-size: 18px
+}
+
+#body #sidebar ul li{
+	margin-bottom: 10px;
+
+}
+
+#body #sidebar ul li a{
+	text-decoration: none;
+	border-bottom: 1px solid #fdfdfd;
+}
+
+#body #sidebar ul li a:hover{
+	color: #ff00ff;
+}
+
+#body #konten{
+	float: left;
+	width: 70%;
+	background-color: #fdfdfd;
+}
+
+#body #konten .artikel{
+	padding: 10px;
+}
+
+#body #kontem .artikel h3{
+	color: magenta;
+}
+#body #konten .artikel p img{
+	width: 100px;
+	height: auto;
+	float: left;
+	margin-right: 5px;
+}
+
+#footer{
+	clear: both;
+	background-color: #999;
+	text-decoration: center;
+}
+#footer p{
+	padding: 10px;
+	color: #fff;
+}
