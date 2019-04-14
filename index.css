@@ -13,7 +13,7 @@ body{
 
 
 ul li{
-	background-color: blue;
+	background-color: #abcdef;
 	height: 50vh;
 	margin: 0px;
 	padding: 0px;
@@ -29,6 +29,6 @@ ul li :hover{
 	background-color: black;
 }
 .dropdown-menu:hover{
-	background-color: yellow;
+	background-color: #abcdef;
 	}
  

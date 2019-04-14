@@ -1,5 +1,5 @@
 body{
-	background: url('rajo.gif') center /*no-repeat fixed*/;
+	background: url('home 2.jpg') center /*no-repeat fixed*/;
 	background-size: 100%;
 	background-position: center;
 
@@ -19,8 +19,8 @@ ul li{
 	width: 200px;
 	height: 41px;
 	list-style: none;
-	background-color: blue;
-	opacity: .8;
+	background-color: #abcdef;
+	/*opacity: .8;*/
 	line-height: 25px;
 	text-align: center;
 	font-size: 20px;
@@ -36,7 +36,7 @@ ul li a:hover{
 
 
 .dropdown-menu:hover{
-	background-color: green;
+	background-color: #abcdef;
 	}
  
 
@@ -46,7 +46,7 @@ ul li a:hover{
 }
 
 #dropdown2 a:hover{
-	background-color: green;
+	background-color: #abcdef;
 }
 
 ul li:hover #dropdown2{

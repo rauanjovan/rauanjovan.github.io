@@ -1,11 +1,129 @@
-body{
-	background: url('bckpendidikan3.jpg') no-repeat /*no-repeat fixed*/;
-	background-size: cover;
+/*body{
+	background: url('bckpendidikan3.jpg') no-repeat*/ /*no-repeat fixed*/;
+	/*background-size: cover;
 	font-family: Arial;
 	text-align: center;
 }ul li{
-	list-style-type: none;background-color: green;
-	height: 39px;
-	margin-right: 2px;
+	margin: 0px;
+	padding: 0px;
+	width: 200px;
+	height: 41px;
+	list-style: none;
+	background-color: #abcdef;*/
+	/*opacity: .8;*/
+	/*line-height: 25px;
+	text-align: center;
+	font-size: 20px;
+	margin-right: 3px;
+	list-style-image: left;
 
+}#dropdown2{
+	background-color:#abcdef;
+	padding: 15px;
+	line-height: 25px;
+
+
+}#dropdown2 a:hover{
+	background-color: #fafaaa;
+
+}
+ul li a:hover{
+	background-color: #fafaaa;
+}*/
+
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	font-size: 14px;
+	font-family: Verdana, sans;
+}
+
+/*#container{
+	margin:  auto;
+	width: 960px;
+}*/
+
+#header{
+	background-color: #abcdef;
+	margin: 0;
+	padding: 20px;
+}
+
+#header img{
+	float: left;
+	width: 100px;
+	height: auto;
+
+}
+
+#header h1{
+	color: blue;
+}
+
+#header p{
+	font-style: italic;
+}
+
+#body{
+	clear: both;
+	display: flex;
+}
+
+#body #sidebar{
+	float: left;
+	width: 20%;
+	background-color: #fafaaa;
+}
+
+#body #sidebar ul{
+	list-style-type: none;
+	font-size: 18px
+}
+
+#body #sidebar ul li{
+	margin-bottom: 15px;
+	margin-left: -5px;
+}
+
+#body #sidebar ul li a{
+	text-decoration: none;
+	border-bottom: 1px solid #fdfdfd;
+}
+
+#body #sidebar ul li a:hover{
+	color: #ff00ff;
+}
+
+#body #konten{
+	float: left;
+	width: 100%;
+	background: url('home 2.jpg');
+	background-size: 100%;
+	color: white;
+}
+
+#body #konten .artikel{
+	padding: 10px;
+}
+
+#body #kontem .artikel h3{
+	color: magenta;
+}
+#body #konten .artikel p img{
+	width: 100px;
+	height: auto;
+	float: left;
+	margin-right: 5px;
+}
+
+#footer{
+	clear: both;
+	background-color: #999;
+	text-decoration: center;
+}
+#footer p{
+	padding: 10px;
+	color: #fff;
 }
