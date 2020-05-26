@@ -1,11 +1,11 @@
 body{
-	background-color: black/*url('medis.gif') no-repeat*/ /*no-repeat fixed*/;
+	background: url('petir.gif') no-repeat /*no-repeat fixed*/;
 	background-size: cover;
 	font-family: Arial;
 	text-align: center;
 }
 #header{
-	background-color: black /*url('petir.gif')*/;
+	background: url('medis.gif');
 }#footer{
 	height: 250px;
 	position: bottom;
