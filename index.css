@@ -1,5 +1,5 @@
 body{
-	background: url('medis.gif') no-repeat /*no-repeat fixed*/;
+	background-color: black;/*url('medis.gif') no-repeat*/ /*no-repeat fixed*/;
 	background-size: cover;
 	font-family: Arial;
 	text-align: center;
